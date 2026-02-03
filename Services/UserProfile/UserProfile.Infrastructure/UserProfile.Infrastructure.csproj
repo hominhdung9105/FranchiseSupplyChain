@@ -23,4 +23,12 @@
     <ProjectReference Include="..\UserProfile.Domain\UserProfile.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\UserProfile.Application\UserProfile.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Migrations\" />
+  </ItemGroup>
+
 </Project>

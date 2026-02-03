@@ -12,7 +12,7 @@ using UserProfile.Infrastructure.Persistence;
 namespace UserProfile.Infrastructure.Migrations
 {
     [DbContext(typeof(UserProfileDbContext))]
-    [Migration("20260203031527_InitialCreate")]
+    [Migration("20260203065200_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

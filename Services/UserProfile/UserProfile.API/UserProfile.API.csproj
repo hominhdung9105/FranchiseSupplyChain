@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\UserProfile.Infrastructure\UserProfile.Infrastructure.csproj" />
+    <ProjectReference Include="..\UserProfile.Application\UserProfile.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>
