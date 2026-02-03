@@ -1,11 +1,18 @@
 <Solution>
-  <Project Path="ApiGateways\OcelotApiGateway\OcelotApiGateway.csproj" />
+  <Project Path="ApiGateways/OcelotApiGateway/OcelotApiGateway.csproj" />
+
   <Project Path="Services/IAM/IAM.API/IAM.API.csproj" />
   <Project Path="Services/IAM/IAM.Application/IAM.Application.csproj" />
   <Project Path="Services/IAM/IAM.Domain/IAM.Domain.csproj" />
   <Project Path="Services/IAM/IAM.Infrastructure/IAM.Infrastructure.csproj" />
-  <Project Path="Services/UserProfile/UserProfile.API/UserProfile.API.csproj" Id="b42cd4b2-3c59-4ffb-850d-f20b0e24abd2" />
-  <Project Path="Services/UserProfile/UserProfile.Application/UserProfile.Application.csproj" Id="06577c70-9e6c-44b5-ac0c-b4c577559bd7" />
-  <Project Path="Services/UserProfile/UserProfile.Domain/UserProfile.Domain.csproj" Id="c4c80074-11d8-447e-948a-44923fac0b88" />
-  <Project Path="Services/UserProfile/UserProfile.Infrastructure/UserProfile.Infrastructure.csproj" Id="d412108c-888e-457e-946e-32d1a69fb7cb" />
+
+  <Project Path="Services/Product/Product.API/Product.API.csproj" Id="33f037e0-0b18-41a8-9dce-02b04e428479" />
+  <Project Path="Services/Product/Product.Application/Product.Application.csproj" />
+  <Project Path="Services/Product/Product.Domain/Product.Domain.csproj" />
+  <Project Path="Services/Product/Product.Infrastructure/Product.Infrastructure.csproj" />
+
+  <Project Path="Services/UserProfile/UserProfile.API/UserProfile.API.csproj" />
+  <Project Path="Services/UserProfile/UserProfile.Application/UserProfile.Application.csproj" />
+  <Project Path="Services/UserProfile/UserProfile.Domain/UserProfile.Domain.csproj" />
+  <Project Path="Services/UserProfile/UserProfile.Infrastructure/UserProfile.Infrastructure.csproj" />
 </Solution>
