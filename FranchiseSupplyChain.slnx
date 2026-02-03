@@ -1,11 +1,22 @@
 <Solution>
+<<<<<<< Updated upstream
+  <Project Path="Services/Product/Product.API/Product.API.csproj" />
+  <Project Path="Services/Product/Product.Application/Product.Application.csproj" />
+  <Project Path="Services/Product/Product.Domain/Product.Domain.csproj" />
+  <Project Path="Services/Product/Product.Infrastructure/Product.Infrastructure.csproj" />
+=======
   <Project Path="ApiGateways\OcelotApiGateway\OcelotApiGateway.csproj" />
+  <Project Path="Product.Domain/Product.Domain.csproj" Id="9eb90d02-cb23-45c3-9230-66912798ee1f" />
+  <Project Path="Product.Infrastructure/Product.Infrastructure.csproj" Id="007ffdf0-c184-41b7-9ae3-e3dbd2f4524a" />
   <Project Path="Services/IAM/IAM.API/IAM.API.csproj" />
   <Project Path="Services/IAM/IAM.Application/IAM.Application.csproj" />
   <Project Path="Services/IAM/IAM.Domain/IAM.Domain.csproj" />
   <Project Path="Services/IAM/IAM.Infrastructure/IAM.Infrastructure.csproj" />
+  <Project Path="Services/Product/Product.API/Product.API.csproj" Id="8fddfaaf-31ff-4d77-8388-f0156a884359" />
+  <Project Path="Services/Product/Product.Application/Product.Application.csproj" Id="ab75339e-25cb-4c81-8331-a7689b4b99b6" />
   <Project Path="Services/UserProfile/UserProfile.API/UserProfile.API.csproj" Id="b42cd4b2-3c59-4ffb-850d-f20b0e24abd2" />
   <Project Path="Services/UserProfile/UserProfile.Application/UserProfile.Application.csproj" Id="06577c70-9e6c-44b5-ac0c-b4c577559bd7" />
   <Project Path="Services/UserProfile/UserProfile.Domain/UserProfile.Domain.csproj" Id="c4c80074-11d8-447e-948a-44923fac0b88" />
   <Project Path="Services/UserProfile/UserProfile.Infrastructure/UserProfile.Infrastructure.csproj" Id="d412108c-888e-457e-946e-32d1a69fb7cb" />
+>>>>>>> Stashed changes
 </Solution>
