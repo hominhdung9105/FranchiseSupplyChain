@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-@Product.API_HostAddress = http://localhost:5096
-=======
-@Product.API_HostAddress = http://localhost:5253
->>>>>>> Stashed changes
+@Product.API_HostAddress = http://localhost:5255
 
 GET {{Product.API_HostAddress}}/weatherforecast/
 Accept: application/json
