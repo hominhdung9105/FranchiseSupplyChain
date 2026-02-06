@@ -15,6 +15,6 @@ namespace UserProfile.Application.Dtos
         public string? PhoneNumber { get; set; }
 
         [Required]
-        public Domain.Entities.UserCategory UserCategory { get; set; }
+        public string? UserCategory { get; set; }
     }
 }

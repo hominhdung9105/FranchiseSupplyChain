@@ -22,7 +22,7 @@ builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 //AutoMapper Configuration
 builder.Services.AddAutoMapper(cfg => { }, typeof(AutoMapperProfile).Assembly);
-
+//DbContext Configuration
 builder.Services.AddDbContext<IAMDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("IAMDatabase")));
 //builder.Services.AddAuthentication(option )

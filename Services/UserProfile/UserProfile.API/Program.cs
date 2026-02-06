@@ -17,6 +17,7 @@ builder.Services.AddOpenApi();
 builder.Services.AddDbContext<UserProfileDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("UserProfileDatabase")));
 
+// Dependency Injection
 builder.Services.AddScoped<IUserProfileRepository, UserProfileRepository>();
 builder.Services.AddScoped<IUserProfileService, UserProfileService>();
 

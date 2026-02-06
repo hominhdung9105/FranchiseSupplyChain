@@ -29,19 +29,19 @@ namespace UserProfile.API.Controllers
             return Ok(result);
         }
 
-        [HttpPost]
-        public async Task<ActionResult<UserProfileDto>> Create([FromBody] CreateUserProfileRequest request, CancellationToken cancellationToken)
-        {
-            try
-            {
-                var created = await _service.CreateAsync(request, cancellationToken);
-                return CreatedAtAction(nameof(GetById), new { userId = created.UserId }, created);
-            }
-            catch (InvalidOperationException)
-            {
-                return Conflict();
-            }
-        }
+        //[HttpPost]
+        //public async Task<ActionResult<UserProfileDto>> Create([FromBody] CreateUserProfileRequest request, CancellationToken cancellationToken)
+        //{
+        //    try
+        //    {
+        //        var created = await _service.CreateAsync(request, cancellationToken);
+        //        return CreatedAtAction(nameof(GetById), new { userId = created.UserId }, created);
+        //    }
+        //    catch (InvalidOperationException)
+        //    {
+        //        return Conflict();
+        //    }
+        //}
 
         [HttpPut("{userId:guid}")]
         public async Task<ActionResult<UserProfileDto>> Update(Guid userId, [FromBody] UpdateUserProfileRequest request, CancellationToken cancellationToken)

@@ -6,16 +6,10 @@ namespace UserProfile.Domain.Entities
     {
         public Guid UserId { get; set; }
         public Guid StoreId { get; set; }
-        public StaffPosition Position { get; set; }
+        public string Position { get; set; }
         public DateTime AssignedAt { get; set; } = DateTime.UtcNow;
 
         // Navigation
-        public UserProfile UserProfile { get; set; } = null!;
-    }
-
-    public enum StaffPosition
-    {
-        STORE_MANAGER,
-        SALE_STAFF
+        public Profile UserProfile { get; set; } = null!;
     }
 }

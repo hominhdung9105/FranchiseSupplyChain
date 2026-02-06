@@ -12,6 +12,6 @@ namespace UserProfile.Application.Dtos
         public string? PhoneNumber { get; set; }
 
         [Required]
-        public Domain.Entities.UserStatus Status { get; set; }
+        public string? Status { get; set; }
     }
 }

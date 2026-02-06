@@ -1,16 +1,13 @@
 <Solution>
-  <Project Path="ApiGateways/OcelotApiGateway/OcelotApiGateway.csproj" />
-
+  <Project Path="ApiGateways/YarpApiGateway/YarpApiGateway.csproj" Id="1900144a-1883-406f-824d-4fcc75c1d7d2" />
   <Project Path="Services/IAM/IAM.API/IAM.API.csproj" />
   <Project Path="Services/IAM/IAM.Application/IAM.Application.csproj" />
   <Project Path="Services/IAM/IAM.Domain/IAM.Domain.csproj" />
   <Project Path="Services/IAM/IAM.Infrastructure/IAM.Infrastructure.csproj" />
-
   <Project Path="Services/Product/Product.API/Product.API.csproj" Id="33f037e0-0b18-41a8-9dce-02b04e428479" />
   <Project Path="Services/Product/Product.Application/Product.Application.csproj" />
   <Project Path="Services/Product/Product.Domain/Product.Domain.csproj" />
   <Project Path="Services/Product/Product.Infrastructure/Product.Infrastructure.csproj" />
-
   <Project Path="Services/UserProfile/UserProfile.API/UserProfile.API.csproj" />
   <Project Path="Services/UserProfile/UserProfile.Application/UserProfile.Application.csproj" />
   <Project Path="Services/UserProfile/UserProfile.Domain/UserProfile.Domain.csproj" />

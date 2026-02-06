@@ -9,6 +9,6 @@ namespace UserProfile.Domain.Entities
         public DateOnly? DateOfBirth { get; set; }
 
         // Navigation
-        public UserProfile UserProfile { get; set; } = null!;
+        public Profile UserProfile { get; set; } = null!;
     }
 }

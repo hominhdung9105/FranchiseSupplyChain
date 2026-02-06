@@ -33,13 +33,13 @@ namespace UserProfile.Application.Services
                 throw new InvalidOperationException($"UserProfile with UserId '{request.UserId}' already exists.");
             }
 
-            var entity = new Domain.Entities.UserProfile
+            var entity = new Domain.Entities.Profile
             {
                 UserId = request.UserId,
                 FullName = request.FullName,
                 PhoneNumber = request.PhoneNumber,
                 UserCategory = request.UserCategory,
-                Status = UserStatus.ACTIVE,
+                Status = "Active",
                 CreatedAt = DateTime.UtcNow,
                 UpdatedAt = null
             };
@@ -85,7 +85,7 @@ namespace UserProfile.Application.Services
             return true;
         }
 
-        private static UserProfileDto MapToDto(Domain.Entities.UserProfile entity)
+        private static UserProfileDto MapToDto(Domain.Entities.Profile entity)
         {
             return new UserProfileDto
             {
