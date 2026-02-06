@@ -1,6 +1,7 @@
 using IAM.Application.AutoMapper;
 using IAM.Application.Interfaces.Repositories;
 using IAM.Application.Interfaces.Security;
+using IAM.Application.Interfaces.Services;
 using IAM.Application.Services;
 using IAM.Infrastructure.Options;
 using IAM.Infrastructure.Persistence;
